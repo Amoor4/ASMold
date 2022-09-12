@@ -1,6 +1,5 @@
-
 body {
-
+	background-color: #fcf4e0;
 	margin-left:       20%;
 	margin-right: 	   20%;
 	border: 2px dotted black;
@@ -9,19 +8,8 @@ body {
 	color: white;
 	font-size: small;
 	align-items: center;
-	background-image: linear-gradient(to right	,#cdcac6,#fcf4e0);
-	background-size: 400%;
-	animation: bg-animation 7s	infinite alternate;
 	
 }
-
-@keyframes bg-animation {
-  0% {
-    background-position: left;
-  }
-  100% {
-    background-position: right;
-  }
   
 }
 
